@@ -13,6 +13,7 @@ import com.example.core3.R
 
 class Adapter(
     private val data: MutableList<Location>
+
 ) : RecyclerView.Adapter<Adapter.ViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): Adapter.ViewHolder {
